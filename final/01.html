@@ -1,16 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>屬於我的網頁</title>
-
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <!--css-->
+    <link rel="stylesheet" href="navbar.css"> </head>
 
 <body>
-
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <!--我-->
+            <a class="navbar-brand" href="#"><img width="50px" height="50px" src="9.png"></a>
+            <!--手機版-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+              <span class="navbar-toggler-icon"></span>  
+            </button>
+            <!--桌上型-->
+            <div class="collapse navbar-collapse" id="linkbar">
+                <!--首列-->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">自介</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">照片</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">作品集</a>
+                    </li>
+                </ul>
+                <!--搜尋-->
+                <form style="width:300px;" class="input-group">
+                    <input class="form-control me-0" type="search" placeholder="搜尋">
+                    <button class="btn btn-success" type="submit">搜尋</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 </body>
+
 
 </html>
