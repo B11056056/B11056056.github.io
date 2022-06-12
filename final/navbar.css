@@ -1,5 +1,5 @@
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: lightyellow;
 }
 
 nav {
@@ -31,7 +31,7 @@ li a:hover {
 .container-intro {
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    padding: 40px;
+    padding: 30px;
     color: black;
     font-size: 25px;
 }
@@ -57,20 +57,18 @@ li a:hover {
 }
 
 .banner-image {
-    margin: 20px;
+    margin: 10px;
 }
 
 .bs-icons ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bs-icons ul li {
     list-style: none;
     margin: 10px;
-}
-
-.bs-icons ul li a {
-    color: mintcream;
 }
 
 .bs-icons ul li a .bi-facebook:hover {
@@ -82,7 +80,30 @@ li a:hover {
 }
 
 .bs-icons ul li a .bi-instagram:hover {
-    color: rgb(237, 67, 237);
+    background: rgb(111, 48, 240);
+    background: linear-gradient(180deg, rgba(111, 48, 240, 1) 13%, rgba(255, 12, 247, 0.5284488795518207) 58%, rgba(255, 134, 0, 1) 100%);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(83, 55, 12);
+}
+
+.container-card {
+    background-color: azure;
+}
+
+.pagination {
+    color: rgba(165, 93, 3, 0.726);
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 174, 1);
+}
+
+.text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 @media(max-width:600px) {
