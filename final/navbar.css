@@ -28,6 +28,12 @@ li a:hover {
     padding: 20px;
 }
 
+.link-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-intro {
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
@@ -84,6 +90,10 @@ li a:hover {
     background: linear-gradient(180deg, rgba(111, 48, 240, 1) 13%, rgba(255, 12, 247, 0.5284488795518207) 58%, rgba(255, 134, 0, 1) 100%);
 }
 
+.bs-icons ul li a .bi-camera-fill {
+    color: rgb(15, 15, 17);
+}
+
 h1 {
     text-align: center;
     color: rgb(83, 55, 12);
@@ -100,7 +110,7 @@ h1 {
     color: rgba(165, 93, 3, 0.726);
     justify-content: center;
     align-items: center;
-    background-color: rgb(254, 174, 1);
+    background-color: lightyellow;
 }
 
 .text {
