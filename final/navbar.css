@@ -100,7 +100,7 @@ h1 {
 }
 
 .container-card {
-    background-color: azure;
+    background-color: rgb(200, 245, 245);
     text-align: center;
     justify-content: center;
     align-items: center;

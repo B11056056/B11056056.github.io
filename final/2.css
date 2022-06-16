@@ -1,0 +1,74 @@
+    body {
+        background-color: rgb(224, 255, 237);
+    }
+    
+    nav {
+        height: 66px;
+    }
+    
+    .navbar {
+        background-color: rgb(56, 185, 255);
+    }
+    
+    li a {
+        color: black !important;
+        font-size: 20px;
+    }
+    
+    li a:hover {
+        color: rgb(8, 79, 38) !important;
+        background-color: rgb(188, 248, 205);
+    }
+    
+    .navbar-toggler {
+        background-color: rgb(167, 100, 255);
+    }
+    
+    .nav-link {
+        padding: 20px;
+    }
+    
+    .btn {
+        border: none;
+        background-color: rgb(16, 155, 88);
+    }
+    
+    .container {
+        background-color: rgb(249, 249, 203);
+        padding: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        opacity: 0.8;
+    }
+    
+    h1 {
+        text-align: center;
+        color: blue;
+        padding: 10px;
+    }
+    
+    label {
+        font-size: 15px;
+    }
+    
+    .text {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pagination {
+        color: rgb(17, 13, 128);
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(229, 228, 255);
+    }
+    
+    @media(max-width:600px) {
+        nav {
+            height: auto;
+        }
+        nav-link {
+            padding: 10px;
+        }
+    }
